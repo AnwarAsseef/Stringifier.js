@@ -32,7 +32,7 @@ function myStringifier(obj) {
      default          :  return obj
      case "Function"  :  return null
      case "Undefined" :  return null
-     case "null"      :  return null
+     case "Null"      :  return null
      case "Math"      :  return null
      case "Number"    :  return '"' + obj + '"'
      case "String"    :  return '"' + obj + '"'
