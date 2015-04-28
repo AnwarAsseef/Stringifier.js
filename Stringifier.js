@@ -29,7 +29,7 @@ function type(obj) {
 }
 function myStringifier(obj) {
   switch (type(obj)) {
-     default          :  return obj
+     default          :  return {}
      case "Function"  :  return null
      case "Undefined" :  return null
      case "Null"      :  return null
