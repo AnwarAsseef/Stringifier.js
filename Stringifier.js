@@ -25,7 +25,7 @@ var arr = [1, 2, 4]
 
 
 function type(obj) {
-  return Object.prototype.toString.call(obj).slice(8, -1);
+  return Object.prototype.toString.call(obj).match(/[A-Z]\w*/)[0];
 }
 function myStringifier(obj) {
   switch (type(obj)) {
